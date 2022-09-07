@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+.navbar {
+    background-color: #8ecae6;
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    background-color: #e0eff1;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar h2 {
+    font-family: 'Indie Flower', cursive;
+    margin-top: 77px;
+    margin-left: 0px;
+    font-size:xx-large;
+    color: #002855;
+}
+
+h1 {
+    color: #012a4a;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    margin-top: 100px;
+    text-align: center;
+ }
+
+
+.card {
+    width: 370px;
+    height: 550px;
+    background-color: #a2d2ff;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #012a4a;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    margin-top: 70px;
+    text-align: center;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3 {
+    color: #012a4a;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    margin-left: 10px;
+    text-align: center;
+}
+
+.card input {
+margin-left: 123px;
+}
+
+.card button {
+    margin-left: 150px;
+}
+
+.card p {
+    color: #012a4a;
+
+    font-size: 25px;
+    text-align: center;
+}
+
+a {
+    color: #012a4a;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}

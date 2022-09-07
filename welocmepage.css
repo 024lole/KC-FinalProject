@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.navbar {
+    background-color: #8ecae6;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    width: fit-content;
+    background-color: #e0eff1;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navMenu {
+    margin-left: 730px;
+    margin-top: 80px;
+}
+
+.subnav {
+    height: 80px;
+    background-color: #9fd6f0;
+    width: 100%;
+}
+
+.navbar h2 {
+    font-family: 'Indie Flower', cursive;
+    margin-top: 89px;
+    margin-left: 0px;
+    font-size:xx-large;
+    color: #002855;
+}
+
+.navMenu a {
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    padding: 8px;
+}
+
+.navMenu a:hover {
+    color: #03045e;
+}
+
+.navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #03045e;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateX(35px);
+    transition: all 0.2s ease-in-out;
+}
+  
+.navMenu a:nth-child(1):hover ~ .dot {
+    transform: translateX(42px);
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+  
+.navMenu a:nth-child(2):hover ~ .dot {
+    transform: translateX(120px);
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+  
+.navMenu a:nth-child(3):hover ~ .dot {
+    transform: translateX(190px);
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    transform: translateX(280px);
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+  
+
+
+.aboutt {
+    padding: 15px;
+    height: 500px;
+    margin-top: 60px;
+}
+
+.img {
+    width: 525px;
+    height: 525px;
+    float: left;
+    margin-top: -70px;
+}
+
+
+.text {
+    text-align: left;
+    font-weight: 800;
+    font-size: 20px;
+    color: #03045e;
+    text-shadow: 1px 0 0x #969696;
+    margin-top: 60px;
+}
+
+h1 {
+   color: #012a4a;
+   text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+   margin-top: 100px;
+}
+
+.terms h1 {
+    color: #012a4a;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    margin-top: 30px;
+ }
+
+ .terms  {
+    margin-left: 30px;
+ }
+ 
+
+.aboutt h2 {
+    margin-left: 525px;
+    color: #8ecae6;
+}
+
+.text a {
+    text-decoration: none;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: inline-block;
+    padding: 8px;
+    color: #03045e;
+   
+}
+.text a:hover {
+    color: #a2d2ff;
+
+}
+
+#contactus {
+    width: 100%;
+    height: 600px;
+    background-color: #8ecae6;
+}
+
+
+form {
+    padding: 10px;
+    margin-left: 10px;
+    width: 700px;
+}
+
+.field {
+    margin-bottom: 10px;
+    width: 100%;
+    display: grid;
+    position: relative;
+  
+}
+
+.input {
+    height: 50px;
+    outline: none;
+    border: none;
+    width: 500px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+
+  
+#submit {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: #e0eff1;
+    font-size: large;
+    color: #344e41;
+    font-weight: bolder;
+    font-family: "Amiri", serif;
+    text-transform: uppercase;
+    margin-left: 2em;
+}
+  #submit:hover {
+    background-color: #03045e;
+    color: #dad7cd;
+    transition: 0.3s;
+}
+
+.navmenuu ul {
+    padding: 0;
+    margin-left: 10px;
+    text-align: left;
+    background-color: #9fd6f0;
+}
+.navmenuu  ul li {
+    display: inline-block;
+    position: relative;
+}
+.navmenuu ul li a {
+    display: block;
+    color: #012a4a;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 0.3s;
+    -webkit-transition: all 0.5s ease 0s;
+    text-decoration: none;
+}
+.navmenuu ul li a:before {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #9fd6f0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+    -webkit-transition: all 0.5s ease 0s;
+    visibility: hidden;
+}
+
+.navmenuu ul li:hover > a:before, .navmenu ul li.active > a:before {
+    opacity: 1;
+    visibility: visible;
+}
+.navmenuu ul li:hover > a, .navmenu ul li.active > a {
+    background: #9fd6f0;
+    text-decoration: none;
+    color: #012a4a;
+    
+}
+.navmenuu li ul {
+    background: #e0eff1 none repeat scroll 0 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 108px;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    visibility: hidden;
+    width: 200px;
+    z-index: -1;
+}
+.navmenuu li ul li {
+    display: block;
+}
+.navmenuu li ul li a {
+    padding-bottom: 5px;
+    text-transform: none;
+}
+.navmenuu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    z-index: 99;
+    top: 40px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
